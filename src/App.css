@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(42, 42, 42);
+  height: 50px;
+}
+
+ul {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav .right-align {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
